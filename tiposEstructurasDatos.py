@@ -14,3 +14,11 @@ print ("El array Heterogeneo tiene un tamaño",len(estructuraHeterogenea))
 
 
 
+
+
+
+
+
+
+
+
