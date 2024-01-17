@@ -5,8 +5,10 @@
 
 nombres = []
 
+
 while True:
     nombre = str(input("Ingresa un nombre: "))
+    nombre.upper()
     if nombre == "STOP":
         break
     else:
