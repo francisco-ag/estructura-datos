@@ -13,7 +13,7 @@ def sumar_numeros():
 root = tk.Tk()
 root.title("Calculadora Simple")
 
-entrada_num1    = tk.Entry(root)
+entrada_num1    = tk.Entry(root, width=5)
 entrada_num2    = tk.Entry(root)
 resultado   = tk.StringVar()
 
