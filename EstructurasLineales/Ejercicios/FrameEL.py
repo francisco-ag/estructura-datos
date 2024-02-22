@@ -20,11 +20,24 @@ class FrameEL(tk.Frame):
             text="Opción 1",
             command=self.agregar_opcion1)
         self.boton_opcion1.pack()
+
+        self.boton_opcion2 = tk.Button(
+            self, 
+            text="Opción 2",
+            command=self.agregar_opcion2)
+        self.boton_opcion2.pack()
+
     
     def agregar_opcion1(self):
-        texto_nuevo = 'Opcion 1'
+        texto_nuevo = 'Opcion 1 '
         self.ordenes.append(texto_nuevo)
         self.actualizar_orden()
+
+    def agregar_opcion2(self):
+        texto_nuevo = 'Opcion 2 '
+        self.ordenes.append(texto_nuevo)
+        self.actualizar_orden()
+
 
     def actualizar_orden(self):
         texto_actual = ''.join(self.ordenes)
