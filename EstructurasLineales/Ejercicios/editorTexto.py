@@ -17,7 +17,11 @@ class EditorTextoFrame(tk.Frame):
         self.entry_texto = tk.Entry(self)
         self.entry_texto.pack()
 
-        self.boton_agregar = tk.Button(self, text="Agregar Texto",command=self.agregar_texto)
+        self.boton_agregar = tk.Button(
+            self, 
+            text="Agregar Texto",
+            command=self.agregar_texto)
+        
         self.boton_agregar.pack()
 
         self.boton_deshacer = tk.Button(self, text="Deshacer",command=self.deshacer)
