@@ -33,6 +33,11 @@ raiz = NodoArbol(1)
 raiz.izquierda = NodoArbol(2)
 raiz.derecha = NodoArbol(3)
 
+raiz.derecha.izquierda = NodoArbol(4)
+raiz.derecha.derecha = NodoArbol(5)
+
+
+
 # Visualizar el árbol binario
 dibujar_arbol_binario(raiz)
 
