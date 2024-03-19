@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
 from matplotlib.patches import FancyArrowPatch
-import numpy as np
 
 class NodoArbol:
     def __init__(self, valor):
