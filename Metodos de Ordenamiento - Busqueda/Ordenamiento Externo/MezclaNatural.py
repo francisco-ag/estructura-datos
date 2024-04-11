@@ -80,7 +80,7 @@ def ordenar_archivo(archivo_entrada, archivo_salida):
     mezclar_segmentos(num_files, archivo_salida)
 
 # Ejemplo de uso
-archivo_entrada = '/home/francisco/Documents/Lorem.txt' 
+archivo_entrada = '/home/francisco/Documents/Lorem.txt'   
 archivo_salida = 'datos_ordenados.txt'
 
 ordenar_archivo(archivo_entrada, archivo_salida)
