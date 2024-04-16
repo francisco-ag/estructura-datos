@@ -50,8 +50,8 @@ def escribir_archivo(lista_ordenada, nombre_archivo):
 
 if __name__ == "__main__":
     # Nombre del archivo de entrada y salida
-    archivo_entrada = 'input.txt'  # Indicar la ubicacion del archivo
-    archivo_salida = 'output.txt'
+    archivo_entrada = '/home/francisco/Documents/estructura-datos/input.txt'  # Indicar la ubicacion del archivo
+    archivo_salida = '/home/francisco/Documents/estructura-datos/output.txt'
 
     # Leer el archivo de entrada y ordenar los datos
     lista_desordenada = leer_archivo(archivo_entrada)
